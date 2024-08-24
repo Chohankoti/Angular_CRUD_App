@@ -1,0 +1,36 @@
+.container {
+    margin: 16px;  /* Adds a 16px margin around the content */
+}
+
+.dialog-content {
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+
+    mat-form-field {
+        width: 100%;
+    }
+}
+
+
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+
+  
+  .dialog-action {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px; 
+    padding: 0px 25px 20px;
+    margin-top: 10px;
+
+    button {
+        flex: 1; 
+    }
+}
+
+  

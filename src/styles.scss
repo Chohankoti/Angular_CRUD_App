@@ -6,3 +6,10 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* global-styles.scss */
+.mat-dialog-container .dialog-content,
+.mat-dialog-container .dialog-actions {
+  margin: 16px;  /* Apply margin globally to all dialogs */
+}
+
